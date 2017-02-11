@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Task_15{
+  public static void main(String[]args){
+    Scanner sion=new Scanner(System.in);
+    System.out.println("Please input an integer number");
+    int num=sion.nextInt();
+    if(num%2==0){
+      if(num%5==0){
+      }else{
+        System.out.println("Number is a multiple of 2");
+      }
+    }else{
+      if(num%5==0){
+        System.out.println("Number is a multiple of 5");
+      }else{
+      }
+    }
+  }
+}

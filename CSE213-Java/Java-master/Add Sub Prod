@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class operatorS{
+  public static void main(String[]args){
+    Scanner sion=new Scanner(System.in);
+    System.out.println("Please enter first number");
+    int num1=sion.nextInt();
+    System.out.println("Please enter second number");
+    int num2=sion.nextInt();
+    int sum= num1 + num2;
+    int product= num1 * num2;
+    int difference= num1 - num2;
+    System.out.println("sum="+sum);
+    System.out.println("product="+product);
+    System.out.println("difference"+difference);
+  }
+}

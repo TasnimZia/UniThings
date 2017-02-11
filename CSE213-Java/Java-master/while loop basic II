@@ -1,0 +1,14 @@
+import java.util.*;
+public class Task_2W{
+  public static void main(String[]args){
+    Scanner sion=new Scanner(System.in);
+    int count=1;
+    double sum=0;
+    while(count<=5){
+      System.out.println("Please input number");
+      double num=sion.nextDouble();
+      sum=sum+num;
+      ++count;
+    }System.out.println("Average of the 5 numbers="+(sum/5));
+  }
+}

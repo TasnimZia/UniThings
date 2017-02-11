@@ -1,0 +1,23 @@
+import java.util.*;
+public class Task_1W{
+  public static void main(String []args){
+    Scanner sion=new Scanner(System.in);
+    System.out.println("Please input number");
+    int num=sion.nextInt();
+    if (num%2==0){
+      System.out.println("Number is even");
+    }else{
+      System.out.println("Number is odd");
+    }
+    int count=1;
+    while(count<=4){
+      System.out.println("Please input next number");
+      int next=sion.nextInt();
+      if(next%2==0){
+        System.out.println("Number is even");
+      }else{
+        System.out.println("Number is odd");
+      }
+    }
+  }
+}

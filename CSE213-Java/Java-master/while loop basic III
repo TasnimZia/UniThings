@@ -1,0 +1,15 @@
+import java.util.*;
+public class Task_10W{
+  public static void main(String[]args){
+    Scanner nion= new Scanner(System.in);
+    System.out.println("Please enter name of your favourite car");
+    String car=sion.nextLine();
+    System.out.println("Please enter a number");
+    int num=sion.nextInt();
+    int count=1;
+    while(count<=num){
+      System.out.println(car);
+      ++count;
+    }
+  }
+}

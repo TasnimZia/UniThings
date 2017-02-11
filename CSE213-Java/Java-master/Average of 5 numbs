@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Task_11{
+  public static void main(String[]args){
+    Scanner sion=new Scanner(System.in);
+    System.out.println("Please enter first number");
+    int num1=sion.nextInt();
+    System.out.println("Please enter second number");
+    int num2=sion.nextInt();
+    System.out.println("Please enter third number");
+    int num3=sion.nextInt();
+    System.out.println("Please enter fourth number");
+    int num4=sion.nextInt();
+    System.out.println("Please enter fifth number");
+    int num5=sion.nextInt();
+    int average=(num1+num2+num3+num4+num5)/5.0;
+    System.out.println("Average of 5 nuumbers="+average);
+  }
+}
+                  

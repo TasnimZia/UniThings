@@ -1,0 +1,10 @@
+public class Task_10{
+  public static void main(String[]args){
+    int num;
+    if(num%2==0){
+      System.out.println("Numbers are even");
+    }else{
+      System.out.println("Numbers are odd");
+    }
+  }
+}
