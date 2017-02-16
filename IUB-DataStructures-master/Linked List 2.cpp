@@ -46,7 +46,7 @@ class LinkedList
 
             newNode = new ListNode;
 
-            newNode -> data = NULL;
+            newNode -> data = num;
             newNode -> next = NULL;
 
             if (Head == NULL)
