@@ -36,7 +36,7 @@ int main()
 
 //    stars_row_helper(num_of_terms);
 
-//    print_stars(num_of_terms);
+    print_stars(num_of_terms);
 
 //    odd_even_printer(num_of_terms);
 
@@ -49,13 +49,13 @@ int main()
 //        cout<<endl<<"Sum: " <<a;
 
 //    permute_printer(2, num_of_terms);
-
-        int prod = 1;
-
-        int b;
-        b = permute_value(50, num_of_terms, prod);
-
-        cout<<endl<<b;
+//
+//        int prod = 1;
+//
+//        int b;
+//        b = permute_value(50, num_of_terms, prod);
+//
+//        cout<<endl<<b;
 
 
 

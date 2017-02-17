@@ -30,9 +30,10 @@ class LinkedList
 {
     private:
         Link * pointer_to_first_Link;
+        Link * pointer_to_last_link;
 
     public:
-        LinkedList() : pointer_to_first_Link(NULL)
+        LinkedList() : pointer_to_first_Link(NULL), pointer_to_last_link(NULL)
         {
 
         }
@@ -52,6 +53,16 @@ class LinkedList
             pointer_to_first_Link = pointer_to_new_Link;
         }
 
+
+        void insert_at_last(int data, int more_data) //insert at end of list
+        {
+                Link* pointer_to_new_link = new Link(data, more_data); //make new link
+                if( list_is_empty() ) //if empty list,
+                    pointer_to_first_Link = pointer_to_new_link; //first --> newLink
+                else
+                    pointer_to_last_link ->pointer_to_next_Link = pointer_to_new_link; //old last --> newLink
+                pointer_to_last_link = pointer_to_new_link; //newLink <-- last
+        }
 
         void display_linked_list()
         {
@@ -132,6 +143,14 @@ int main()
             a.remove_first_link_in_list();
 
         }
+            a.display_linked_list();
+
+            cout<<endl<<endl;
+
+            LinkedList test = new LinkedList();
+
+            a.insert_at_last(2, 4);
+
             a.display_linked_list();
 
     return 0;

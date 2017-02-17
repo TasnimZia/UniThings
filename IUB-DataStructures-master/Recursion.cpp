@@ -24,6 +24,9 @@ int main()
 //    int c = &b;
 //    cout<<sum_test(a, b)<<endl;
 //    cout<<b<<endl;
+    int temp = 0;
+     int t = finding_sum_of_terms(1, 3, temp);
+     cout<<t;
 
 
     return 0;
@@ -48,9 +51,9 @@ int print_number_list_using_int(int lower_limit, int upper_limit, int &sum)
         return lower_limit;
     cout<<lower_limit << " + ";
     sum = lower_limit + sum;
-    return (lower_limit)
+    return (lower_limit);
 
-    print_number_list_using_int(lower_limit + 1, upper_limit);
+    print_number_list_using_int(lower_limit + 1, upper_limit, sum);
 }
 
 
