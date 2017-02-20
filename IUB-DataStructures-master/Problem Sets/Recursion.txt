@@ -1,0 +1,71 @@
+Using Recursion:
+----------------
+1. Write a recursive program to detect and print all prime numbers between 1 and n. n is a user input.
+
+2. Write recursive function to find the square root of a double.
+
+3. Generate the following pattern recursively:
+cin>>n (if n is 6), then the patter would be:
+6 5 4 3 2 1
+1 2 3 4 5
+4 3 2 1
+1 2 3
+2 1
+1
+
+4. Write a recursive function to check whether a (a) number, (b) string is a palindrome or not. A palindrome is a number or text if reading from forward and backword gives you same input. Ex: the number 12321 is a palindrome but 12345 is not. The string "MADAM" is a palindrome, but "SIR" is not.
+
+5. Write a recursive function to draw square of nXn pixel at the center of your screen. In each recursive call, you need to generate a smaller rectangle with reduced n, until n becomes 1. You need to switch to "graphics" mode from "console" mode, which I will show you in next class.
+
+6.  Write a recursive function to generate and display the terms of fibonacci sequence, upto n terms.
+
+7. Find GCD of n numbers recursively (not limited to 2 numbers only). n, and the numbers are given by user.
+
+8. The sum of first n positive integers (1+2+3+…+n) is given by the formula ? i = n(n+1)/2. Write a complete program that checks this formula by inputting n and then computing and comparing the values of both sides of this equation.
+
+9. The sum of first n positive integers (1+4+9+…+n2) is given by the formula ? i2 = n(n+1)(2n+1)/6. Write a complete program that checks this formula by inputting n and then computing and comparing the values of both sides of this equation.
+
+10. The sum of first n positive integers (1+8+27+…+n3) is given by the formula ?i3 = n2(n+1)2/4. Write a complete program that checks this formula by inputting n and then computing and comparing the values of both sides of this equation.
+
+11. The factorial function is defined by the formula n!=1*2*3*…*n. I.e., “n factorial” is the product of the first n positive integers. For example, 5! = 120 because 120=1*2*3*4*5. Write a program that inputs n and then computes the value of n!
+
+12. the permutation function is defined by the formula p(n,k)=n*(n-1)*…*(n-k+1); i.e., p(n,k) is the product of the k largest integers that are = n. For example, p(11,4) = 11*10*9*8 = 7920. Write a program that inputs n and k and returns the value of p(n.k).
+
+13. Write a program to add first N terms of the following series using for loop:
+        
+14. Write a program to generate all combinations of 1, 2 and 3 using for loop.
+15. Write a program to produce the following output:
+	A B C D E F G F E D C B A
+	A B C D E F   F E D C B A
+	A B C D E       E D C B A
+	A B C D           D C B A
+	A B C               C B A
+	A B                   B A
+	A		        A
+16. Write a program to produce the following output:
+		1
+	     2     3
+	   4    5    6
+	7    8    9    10
+17. Write a program to produce the following output:
+	     1
+	  1 	1
+	1    2    1
+      1    3   3    1
+    1   4   6    4    1
+
+18. Write programs to find out the sum of series
+a. 1 + (1/2)^2 + (1/3)^2 +….
+b. 2 + 4 + 6 + …
+c. 1 + 3 + 5 + …
+d. 2 + 4 + 9 + 16 + …
+e. 1 + 2 + 4 + 8 + 16 + …
+
+19.That will print the following structure:
+*******
+******
+*****
+****
+***
+**
+*
