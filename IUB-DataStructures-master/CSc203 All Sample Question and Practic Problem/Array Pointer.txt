@@ -1,0 +1,16 @@
+Array Pointer Problem:
+
+1. Allocate a 2D array and show all the prime number in this array.
+ 
+2. Allocate a 3D array and show all the Perfect number in this array.
+
+3. Allocate a 2D array and show all the Fibonacci number in this array.
+
+4. Allocate a 3D array and show prime number in 1st page, show Odd Number in 2nd page and show even number in 3rd page.
+
+5. Allocate a 2D array and populate it with Binary number .
+
+6. Allocate a 3D array and show sum of prime number in 1st page, show sum of Odd Number in 2nd number and show sum of even number in 3rd page.
+
+practice all the array related problem of CSC 101.
+ 

@@ -115,7 +115,7 @@ void display_pos()
 
 int main()
 {
-            DoublyLinkedList a = new DoublyLinkedList();
+            DoublyLinkedList * a = new DoublyLinkedList();
 
             a.append_first_my_way(2);
             return 0;
