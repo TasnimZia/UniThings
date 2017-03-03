@@ -82,6 +82,6 @@ int main()
      obj.displayNto1(n);
      cout<<endl;*/
      //obj.display1234512345(n-1);
-     obj.displayStarDollarHash(n-1);
-     //obj.display12345(n,n);
+     //obj.displayStarDollarHash(n-1);
+     obj.display12345(n,n);
 }
