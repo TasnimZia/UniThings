@@ -4,9 +4,17 @@ using namespace std;
 
 int main ()
 {
-    for (int a = 0; a<100; a=a+1)
+    for (int a = 0; a<=99; a=a+1)
 {
-    cout<<"The value of a: "<<a<<endl;
-}
+        cout<<a;
+        
+        if (a<=98)
+            
+            cout<<", ";
+        
+        else
+            
+            cout<<". ";
+}        
     return 0;
 }
