@@ -6,7 +6,14 @@ int main ()
 {
     for(int a = 42; a>16; a = a-1)
     {
-        cout<<"The value of a: "<<a<<endl;
+        cout<<a;
+        
+        if (a>17)
+            
+            cout<<", ";
+        else
+            
+            cout<<".";
     }
   return 0;
 }
